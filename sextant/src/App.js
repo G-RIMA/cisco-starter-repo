@@ -1,12 +1,12 @@
 import './App.css';
 import Banner from './Banner';
-import Exibit from './Head';
+import Panel from './Panel';
 
 function App() {
   return (
     <div className="App">
       <Banner title="Sextant" />
-      <Exibit />
+      <Panel />
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Exibit() {
+function Panel({ title, children }) { 
     return (
         <div>
-            <h1>Exhibit</h1>
+        
         </div>
     );
 }
 
-export default Exibit;
+export default Panel;
