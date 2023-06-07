@@ -7,7 +7,7 @@ class Exhibit extends Component {
     render() {
         return (
             <div className="Exhibit">
-                <h2 className="ExhibitHeading">Your IP address</h2>
+                <h2 className="ExhibitHeading">Your IP address:</h2>
                 <div className="ExhibitContent">
                     <IPDisplay ipAddressType="ipv4" />
                 </div>
@@ -15,7 +15,7 @@ class Exhibit extends Component {
                     <IPDisplay ipAddressType="ipv6" />
 
                 </div>
-                <div>
+                <div className='ExhibitContent'>
                     <PacketLatency />
                 </div>
             </div>

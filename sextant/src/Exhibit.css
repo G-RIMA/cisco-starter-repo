@@ -1,7 +1,9 @@
 .Exhibit {
+    display: flex;
+    flex-direction: row;
     float: left;
     margin: 0.5vw;
-    padding: 0vw 2vw 0vw 2vw;
+    padding: 1vw 2vw 0vw 2vw;
     text-align: center;
     color: #002933;
     background-color: #00b8e6;
@@ -12,9 +14,12 @@
 .ExhibitHeading {
     font-weight: bold;
     font-size: 1.75vw;
+    padding-right: 10px;
 }
 
 .ExhibitContent {
+    display: flex;
+    flex-direction: column;
     margin: 0.5vw;
     padding: 1vw 1vw 1vw 1vw;
     text-align: center;
@@ -24,4 +29,5 @@
     background-color: #80e5ff;
     border: 0.25vw solid #005266;
     border-radius: 2vw;
+    
 }
