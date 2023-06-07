@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Exhibit.css';
 import IPDisplay from './Ip';
+import PacketLatency from './Websocket';
 
 class Exhibit extends Component {
     render() {
@@ -13,6 +14,9 @@ class Exhibit extends Component {
                 <div className='ExhibitContent'>
                     <IPDisplay ipAddressType="ipv6" />
 
+                </div>
+                <div>
+                    <PacketLatency />
                 </div>
             </div>
         );
